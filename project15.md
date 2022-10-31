@@ -269,7 +269,6 @@ Step Three: Configure Application Load Balancer (ALB)
 
 - Create launch template for wordpress in a private subnet. Webserver security group. Disable public ip. Also update the mount point to the filesystem by copying the command without the efs and also update the rds end point in the 'wordpress user data.md file. Remember to login to the rds to create the database. Also ensure all other credentials are correct.
 
-![create wordpress launch template](./images/create-wordpress-launch-temp1.jpg)
 ![create wordpress launch template](./images/create-wordpress-launch-temp2.jpg)
 ![create wordpress launch template](./images/create-wordpress-launch-temp5.jpg)
 
